@@ -1,0 +1,7 @@
+#! perl
+
+use strict;
+use warnings FATAL => 'all';
+use App::ModuleBuildTiny;
+
+modulebuildtiny(@ARGV);
