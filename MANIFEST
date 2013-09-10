@@ -1,15 +1,15 @@
-Build.PL
-Changes
-cpanfile
-lib/App/ModuleBuildTiny.pm
-LICENSE
-MANIFEST			This list of files
-MANIFEST.SKIP
 META.json
 META.yml
-README
-script/mbtiny
-t/00-compile.t
-t/release-kwalitee.t
-t/release-pod-coverage.t
 t/release-pod-syntax.t
+script/mbtiny
+cpanfile
+LICENSE
+lib/App/ModuleBuildTiny.pm
+t/00-compile.t
+t/release-pod-coverage.t
+t/release-kwalitee.t
+README
+Build.PL
+MANIFEST
+Changes
+MANIFEST.SKIP

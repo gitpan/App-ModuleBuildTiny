@@ -1,4 +1,12 @@
 Revision history for App-ModuleBuildTiny
 
-{{$NEXT}}
-    -
+0.002     2013-09-10
+          Switch to a generated files workflow
+          Document the mbtiny command
+          Added run action
+          Added generate action
+          Removed clean and realclean actions
+          Added --json to listdeps
+
+0.001     2013-09-09
+          First release
