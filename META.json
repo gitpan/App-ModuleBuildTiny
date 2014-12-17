@@ -4,7 +4,7 @@
       "Leon Timmermans <leont@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "App::ModuleBuildTiny version 0.002",
+   "generated_by" : "App::ModuleBuildTiny version 0.003",
    "license" : [
       "perl_5"
    ],
@@ -15,28 +15,29 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.027"
+            "Module::Build::Tiny" : "0.039"
          }
       },
       "runtime" : {
          "requires" : {
-            "Archive::Tar" : 0,
-            "CPAN::Meta" : 0,
+            "Archive::Tar" : "0",
+            "CPAN::Meta" : "0",
             "Exporter" : "5.57",
-            "File::Temp" : 0,
-            "Getopt::Long" : 0,
-            "JSON::PP" : 0,
-            "Module::CPANfile" : 0,
-            "Module::Metadata" : 0,
+            "File::Path" : "0",
+            "File::Temp" : "0",
+            "Getopt::Long" : "2.39",
+            "JSON::PP" : "0",
+            "Module::CPANfile" : "0",
+            "Module::Metadata" : "0",
             "perl" : "5.008"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.002"
+   "version" : "0.003"
 }

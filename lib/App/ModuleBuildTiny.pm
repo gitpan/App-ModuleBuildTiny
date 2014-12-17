@@ -3,7 +3,7 @@ package App::ModuleBuildTiny;
 use 5.008;
 use strict;
 use warnings FATAL => 'all';
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use Exporter 5.57 'import';
 our @EXPORT = qw/modulebuildtiny/;
@@ -19,7 +19,7 @@ use File::Find qw/find/;
 use File::Path qw/mkpath rmtree/;
 use File::Spec::Functions qw/catfile abs2rel rel2abs/;
 use File::Temp qw/tempdir/;
-use Getopt::Long;
+use Getopt::Long 2.39;
 use JSON::PP;
 use Module::CPANfile;
 use Module::Metadata;
@@ -187,7 +187,7 @@ App::ModuleBuildTiny - A standalone authoring tool for Module::Build::Tiny
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 DESCRIPTION
 
@@ -207,15 +207,25 @@ The actions are documented in the L<mbtiny> documentation.
 
 =head1 SEE ALSO
 
+=head2 Helpers
+
 =over 4
 
-=item * Dist::Zilla
+=item * L<scan_prereqs_cpanfile|scan_prereqs_cpanfile>
 
-=item * scan_prereqs_cpanfile
+=item * L<cpan-upload|cpan-upload>
 
-=item * cpan_upload
+=item * L<perl-reversion|perl-reversion>
 
-=item * perl-reversion
+=back
+
+=head2 Similar programs
+
+=over 4
+
+=item * L<Dist::Zilla|Dist::Zilla>
+
+=item * L<Minilla|Minilla>
 
 =back
 
